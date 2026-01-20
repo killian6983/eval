@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+header a img{
+    width: 200;
+    height: 101.4800033569336;
+    max-width: 200px;
+    opacity: 1;
+}
+
+header nav li{
+    gap: 40px;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: #27697c;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    background-image: url(image/batiment.jpg);
+}
