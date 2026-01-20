@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+
 *{
     margin: 0;
 }
@@ -36,7 +39,7 @@ footer p{
     text-align: center;
 }
 
-main{
+main section.class1{
     background-image: url(image/batiment.jpg);
     background-attachment: fixed;    
     background-size: cover;
@@ -47,9 +50,40 @@ main{
     max-width: 1440px;
 }
 
-main div{
+main section.class1 div{
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    background-color: #27697CE3;
+    border-style: none;
+    padding: 50px 015px 50px 015px;
 }
+ main section.class1 div h2{
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
 
+ main section.class1 div p{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+ }
+
+ main section.class1 div button{
+    background-color: #FFFFFF;
+    border-width: 1px 1px 1px 1px;
+ }
+
+ main section.class1 div button a{
+    text-decoration: none;
+    color: #27697c var(--e-global-color-a8fd637);
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
